@@ -1,0 +1,90 @@
+/* CSS */
+
+
+main{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.main-section{
+    padding: 16px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.section-celsius{
+    padding-top: 16px;
+    text-align: center;
+}
+
+.section-fahrenheit{
+    padding-top: 16px;
+    text-align: center;
+}
+
+.section-formula{
+    padding-top: 16px;
+    text-align: center;
+}
+
+.section-explanation{
+    padding-top: 16px;
+}
+
+.change-formula{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.change-formula>sub{
+    font-style: normal;
+}
+
+.change.explain{
+    font-size: 20px;
+}
+
+textarea{
+    width: 50%;
+    height: 32px;
+    resize: none;
+    border: 2px solid lavender;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.container-button{
+    padding-top: 8px;
+}
+
+button{
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button-convert{
+    background-color: forestgreen;
+    color: white;
+}
+
+#button-reset{
+    background-color: rgb(193, 3, 3);
+    color: white;
+}
+
+#button-reverse{
+    background-color: rgb(0, 88, 240);
+    color: white;
+}
+

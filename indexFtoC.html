@@ -1,0 +1,82 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <main>
+        <header class="main-title">
+            <h1>Temperature Converter(Fahrenheit to Celsius)</h1>
+            <h2>By Clive Clay Irawan</h2>
+            <h3>Welcome! This is a Temperature Converter, designed as simple as possible. It should be pretty easy to use.</h3>
+            <hr>
+        </header>
+        
+        <section class="main-section">
+            <section>
+                <h3>Instruction:</h3>
+                <ul>
+                    <li>Insert the Temperature(in &deg;C) into the box, then choose "Convert" to convert to (&deg;F).</li>
+                    <li>Choose "Reset" if you want to clear the box.</li>
+                    <li>Choose "Reverse" if you want to convert (&deg;F) to (&deg;C)</li>
+                </ul>
+            </section>
+    
+            <section class="section-fahrenheit">
+                <header>
+                    <h3>Fahrenheit(&deg;F):</h3>
+                </header>
+    
+                <article>
+                    <textarea rows="2"></textarea>
+                    <div class ="container-button">
+                        <button id="button-convert">Convert</button>
+                        <button id="button-reset">Reset</button>
+                        <button id="button-reverse">Reverse</button>
+                    </div>
+                </article>
+            </section>
+
+            <section class="section-celsius">
+                <header>
+                    <h3>Celsius(&deg;C):</h3>
+                </header>
+    
+                <article>
+                    <textarea rows="2"></textarea>
+                </article>
+            </section>
+
+            <section class="section-formula">
+                <header>
+                    <h3>Formula:</h3>
+                </header>
+    
+                <article>
+                    <textarea rows="2"></textarea>
+                </article>
+            </section>
+
+            <a href="index.html">Convert Fahrenheit to Celsius</a>
+
+            <section class="section-explanation">
+                <header>
+                    <h3>How do you convert (&deg;C) to (&deg;F)?</h3>
+                </header>
+                <hr>
+                <article>
+                    <p class="change-explain">To convert Fahrenheit to Celsius, subtract 32, then multiply by 5/9.  For example, 212°F equals (212-32) x 5/9 = 100°C.</p> 
+                    <h1 class="change-formula">S<sub>(&deg;C)</sub> = (S<sub>(&deg;F)</sub> - 32) x 5/9</h1>
+                </article>
+            </section>
+            
+
+        </section>
+    </main>
+</body>
+
+</html>
